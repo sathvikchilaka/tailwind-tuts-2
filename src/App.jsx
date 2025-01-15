@@ -1,5 +1,8 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import TechnologiesSection from "./components/TechnologiesSection";
+import ProjectsSection from "./components/ProjectsSection";
 
 function App() {
   return (
@@ -14,9 +17,14 @@ function App() {
     //     <Navbar/>
     //   </div>
     // </div>
-    <div className="content-wrap overflow-x-hidden antialiased text-stone-300">
-      <div className="container mx-auto px-8"> 
-        <Navbar/>
+    <div className="content-wrap">
+      <div className="absolute overflow-x-hidden antialiased text-stone-300 w-full">
+        <div className="container mx-auto px-8">
+          <Navbar />
+          <HeroSection/>
+          <TechnologiesSection/>
+          <ProjectsSection />
+        </div>
       </div>
     </div>
   );

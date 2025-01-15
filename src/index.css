@@ -14,8 +14,8 @@ body {
 .content-wrap {
   position: relative;
   height: 100vh;
-  overflow: hidden;
-  z-index: -10;
+  overflow: scroll;
+  z-index: 0;
 }
 
 .content-wrap::before {
@@ -25,6 +25,7 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: -1;
   background: linear-gradient(
         90deg,
         rgba(128, 128, 128, 0.2) 1px,
