@@ -15,6 +15,7 @@ body {
   position: relative;
   height: 100vh;
   overflow: scroll;
+  overflow-x: hidden;
   z-index: 0;
 }
 
