@@ -22,12 +22,12 @@ const TechnologiesSection = () => {
   };
 
   return (
-    <div className="pb-24">
+    <div className="pb-12">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
+        initial={{ opacity: 0, y: -50 }}
         transition={{ duration: 1 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.2 }}
         className="my-20 text-center text-4xl"
       >
         Technologies
@@ -36,7 +36,7 @@ const TechnologiesSection = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        viewport={{ once: true }}
+        viewport={{ once: true, amount: 0.2 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <motion.div

@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/sathvikchilaka_pf.webp";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "motion/react";
 
