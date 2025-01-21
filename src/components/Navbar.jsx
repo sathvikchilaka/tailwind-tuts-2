@@ -1,5 +1,4 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "../assets/CS34Logo.webp";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {

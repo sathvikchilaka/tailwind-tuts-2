@@ -1,4 +1,3 @@
-import { FaArrowDown, FaDownload } from "react-icons/fa";
 import profilePic from "../assets/sathvikchilaka_pf.webp";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "motion/react";
