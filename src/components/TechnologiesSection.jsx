@@ -1,5 +1,5 @@
 import { BiLogoPostgresql } from "react-icons/bi";
-import { FaNodeJs, FaReact } from "react-icons/fa";
+import { FaAngular, FaNodeJs, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -91,7 +91,7 @@ const TechnologiesSection = () => {
           className=""
         >
           {" "}
-          <RiTailwindCssFill className="px-4 w-28 h-28 text-7xl text-sky-500 " />{" "}
+          <FaAngular className="px-4 w-28 h-28 text-7xl text-red-600"/>{" "}
         </motion.div>
       </motion.div>
     </div>

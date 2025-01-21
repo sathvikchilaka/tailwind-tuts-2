@@ -1,6 +1,8 @@
+import { FaArrowDown, FaDownload } from "react-icons/fa";
 import profilePic from "../assets/sathvikchilaka_pf.webp";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "motion/react";
+import { FiDownload } from "react-icons/fi";
 
 const HeroSection = () => {
 
@@ -67,9 +69,10 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             target="_blank"
             download
-            className="bg-white rounded-3xl p-4 text-sm text-stone-800 mb-10"
+            className="inline-flex items-center justify-center bg-white text-stone-800 rounded-lg py-2 px-4 text-sm font-medium hover:bg-gray-200 transition-colors"
           >
             Download Resume
+            <FiDownload className="text-stone-800 ml-2" strokeWidth={3} />
           </motion.a>
         </motion.div>
       </div>

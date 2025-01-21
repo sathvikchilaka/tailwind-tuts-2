@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 1.5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a Computer Science graduate from IIT Bhubaneswar and a passionate full-stack developer skilled in building robust, scalable web applications. With 1.5 years of hands-on experience, I specialize in front-end technologies like React, Next.js and Angular, along with back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My aim is to apply my expertise to develop innovative solutions that drive business growth and provide exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -33,32 +33,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Social Media Application",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a responsive social media platform with features like likes, comments, and trending videos. Optimized search with Trie algorithm and integrated Google OAuth for seamless login.",
+    technologies: ["HTML", "CSS", "ReactJS", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Modern Youtube Clone",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Designed and implemented YouTube-like video streaming features, including home content, channels, and recommendations. Deployed via Kubernetes, Docker, and AWS CloudFront for scalability and performance.",
+    technologies: ["HTML", "SCSS", "Angular", "AWS CloudFront", "Kubernetes"],
   },
   {
-    title: "Portfolio Website",
+    title: "Nuiz, The News Website App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A news website delivering the latest updates across sports, business, politics, entertainment, health, and technology. It integrates three APIs to fetch data for news, COVID updates, and weather.",
+    technologies: ["HTML", "CSS", "EJS", "Node", "Javascript"],
   },
   {
-    title: "Blogging Platform",
+    title: "Pathfinding Visualizer",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Facilitates user-friendly visualization of sorting and pathfinding algorithms like A*, Tim Sort, Radix Sort, and Merge Sort using React, JavaScript, and Pygame for interactive and engaging representations.",
+    technologies: ["ReactJS", "Javascript", "Pygame", "Algorithms"],
   },
 ];
 
