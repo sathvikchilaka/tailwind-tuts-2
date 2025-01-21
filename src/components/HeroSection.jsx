@@ -47,7 +47,7 @@ const HeroSection = () => {
             variants={childVariant}
             className="pb-2 text-4xl tracking-tighter lg:text-8xl"
           >
-            Sathvik Chilaka
+            Sathvik Chilakaaaa
           </motion.h2>
           <motion.span
             variants={childVariant}
